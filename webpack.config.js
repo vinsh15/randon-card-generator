@@ -7,8 +7,10 @@ const WebpackErrorReporting = require('bc-webpack-error-reporting-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const port = 3000
-const [schema, host] = process.env.GITPOD_WORKSPACE_URL.split('://')
+//const [schema, host] = process.env.GITPOD_WORKSPACE_URL.split('://')
+const [schema, host] = ["http", "localhost"];
 const publicUrl = `${port}-${host}`
+
 
 module.exports = {
   mode: 'development',

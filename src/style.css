@@ -1,1 +1,49 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url(./assets/img/fondo-mesa.jpg);
+}
+
+#button {
+  align-self: center;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.card {
+  background-color: white;
+  width: 375px;
+  height: 550px;
+  margin-top: 30px;
+}
+
+.top,
+.bottom {
+  padding: 0%;
+  margin: 0%;
+  height: 30%;
+}
+
+.middle {
+  padding: 0%;
+  margin: 0%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spanBotton {
+  float: right;
+  transform: rotate(-180deg);
+}
+
+h1,
+span {
+  font-size: 8em;
+  font-weight: bolder;
+  margin-left: 12px;
+  margin-right: 12px;
+}
